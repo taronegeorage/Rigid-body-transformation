@@ -1,6 +1,6 @@
 # Rigid-body-transformation
 
 Compile:   
-g++ `pkg-config opencv --cflags` calibration.cpp  -o cali `pkg-config opencv --libs`   
+g++ `pkg-config opencv --cflags` [file to be compiled]  -o [output name] `pkg-config opencv --libs`   
 or   
 cmake  
